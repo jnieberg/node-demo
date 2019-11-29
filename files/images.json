@@ -1,0 +1,22 @@
+{
+	"results": [
+		{
+			"name": "Nice image of a amusementpark",
+			"user": "Oneisha Lee",
+			"url": "https://images.unsplash.com/photo-1513889961551-628c1e5e2ee9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1080&q=80",
+			"id": 1
+		},
+		{
+			"name": "Cool image of a ragdoll cat",
+			"user": "Larissa Dupont",
+			"url": "https://images.unsplash.com/photo-1559914392-48b4bc800d0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1080&q=80",
+			"id": 2
+		},
+		{
+			"name": "A woman doing yoga",
+			"user": "Dominik Wycisło",
+			"url": "https://images.unsplash.com/photo-1470919543690-22e21c13163d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1080&q=80",
+			"id": 3
+		}
+	]
+}

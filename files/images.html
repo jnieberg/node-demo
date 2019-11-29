@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<style>
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+			width: 1200px;
+			margin: 16px auto;
+		}
+
+		h1 {
+			width: 50%;
+			margin: 0;
+		}
+
+		form {
+			display: flex;
+		}
+
+		form input[type=text] {
+			font-size: 20px;
+			border: solid 1px #ccc;
+			border-right: 0;
+			display: block;
+			width: 40%;
+			height: 24px;
+			padding: 8px;
+		}
+
+		form input[type=submit] {
+			background-color: #f8f8f8;
+			border: solid 1px #ccc;
+			display: block;
+			width: 10%;
+			cursor: pointer;
+		}
+
+
+		.images {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			margin: 16px -8px;
+		}
+
+		a {
+			position: relative;
+			display: inline-flex;
+			margin: 8px;
+		}
+
+		a:hover::after {
+			content: '';
+			position: absolute;
+			background-color: rgba(0, 0, 0, 0.15);
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+		}
+
+		img {
+			height: 200px;
+		}
+	</style>
+	<title>NodeJS Demo App</title>
+</head>
+
+<body>
+	<form action="/" method="get">
+		<h1></h1>
+		<input type="text" name="search" value="" />
+		<input type="submit" value="Search" />
+	</form>
+	<div class="images"></div>
+</body>
+
+</html>

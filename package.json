@@ -1,0 +1,27 @@
+{
+	"name": "node-demo",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"1": "nodemon 01.setup",
+		"2": "nodemon 02.express",
+		"3": "nodemon 03.send",
+		"4": "nodemon 04.fs",
+		"5": "nodemon 05.request",
+		"6": "nodemon 06.query",
+		"7": "nodemon 07.alter",
+		"8": "nodemon 08.assignment"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"cheerio": "^1.0.0-rc.3",
+		"express": "^4.17.1",
+		"fs": "0.0.1-security",
+		"http": "0.0.0",
+		"nodemon": "^2.0.1",
+		"request": "^2.88.0"
+	}
+}
