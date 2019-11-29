@@ -11,11 +11,11 @@ app.all('/', (request, response) => {
 app.route('/images')
 	// create GET request, for path /images
 	.get((request, response) => {
-		response.send('GET images');
+		response.send('Yo GET the images!');
 	})
 	// create DELETE request, for path /images and send it as a 401 status response
 	.delete((request, response) => {
-		response.status(401).send('Not possible to DELETE images');
+		response.status(401).send('Yikes! Not possible to DELETE images');
 	});
 
 const httpServer = http.createServer(app);

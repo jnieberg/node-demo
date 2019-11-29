@@ -15,8 +15,8 @@ app.get('/', (request, response) => {
 		<title>NodeJS Demo App</title>
 	</head>
 	<body>
-		<h1>Welcome to my NodeJS Demo App</h1>
-		<p>Lorem ipsum</p>
+		<h1>Welcome to my NodeJS Demo</h1>
+		<p>Lorem ipsum dolor sid amet</p>
 	</body>
 </html>`);
 });
